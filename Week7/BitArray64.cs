@@ -53,8 +53,7 @@ namespace Week7
 
         public override int GetHashCode()
         {
-            return base.GetHashCode();
-        }
+            return base.GetHashCode();        }
        
     }
 }
