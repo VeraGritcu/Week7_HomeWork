@@ -37,12 +37,20 @@ namespace Week7
             {
                 Console.Write(bit);
             }
-            BitArray64 simpleBitArray2 = new BitArray64(25544);
 
-            simpleBitArray1.Equals(simpleBitArray2);
+            Console.WriteLine();
+            BitArray64 simpleBitArray2 = new BitArray64(25544);
+            foreach (var bit in simpleBitArray2)
+            {
+                Console.Write(bit);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine(simpleBitArray1.Equals(simpleBitArray2));
             Console.WriteLine();
 
             Console.WriteLine(simpleBitArray1.GetHashCode());
+            Console.WriteLine(simpleBitArray1[2] == simpleBitArray2[2]);
 
             
 
